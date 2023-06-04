@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav-list li a{
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+}
+.nav-list li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 50px;
+    transition: 0.2s;
+}
+.nav-list li:hover::after{
+    width: 100%;
+}
+.h1{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    align-items: left;
+    margin-top: 30px;
+    font-size: 35px;
+    text-decoration: dashed;
+    padding-left: 10px;
+    text-align: center;
+}
+.h2{
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    align-items: left;
+    font-size: 25px;
+    text-decoration: dashed;
+    padding-left: 10px;
+    text-align: center;
+    margin-left: 46.5%;
+}
+#name{
+    margin-left: 10px;
+    width: 300px;
+    text-align: center;
+    font-weight: normal;
+    border: 1px solid grey;
+    color: black;
+    font-size: 14px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 39%;
+    background: #ede3e3;
+}
+.text{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+.button{
+    margin-left: 39%;
+    background: darkblue;
+    height: auto;
+    width: 313px;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 30px;
+    color: #fff;
+}
+.login{
+    margin-left: 44%;
+    font-size: small;
+}
